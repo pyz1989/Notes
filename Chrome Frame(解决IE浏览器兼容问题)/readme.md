@@ -4,8 +4,8 @@
 
 [谷歌浏览器內嵌框架 Google Chrome Frame](https://zh.wikipedia.org/zh-hans/Google_Chrome_Frame)
 
-[IE内嵌Google Chrome Frame解决浏览器兼容问题](http://www.cnblogs.com/xwdreamer/archive/2013/12/17/3477776.html)
+Google Chrome Frame不支持直接从本地local file方式打开页面，必须把页面部署到Web服务器发布方式打开
+- Google Chrome Frame不支持64位的机器：Currently, 64-bit versions of IE are not supported. It's worth pointing out that 32-bit IE is the default on 64-bit Windows 7.
+- Google Chrome Frame不支持iframe方式： At this point ChromeFrame only supports the meta tag detection on top level URLs.
 
-[X-UA-Compatible也无法解决的IE11兼容问题](http://www.cnblogs.com/dudu/p/ie11-x-ua-compatible.html)
-
-[给网站添加X-UA-Compatible标签](http://lightcss.com/add-x-ua-compatible-meta-to-your-website/)
+[IE内嵌 Google Chrome Frame解决浏览器兼容问题](http://www.cnblogs.com/xwdreamer/archive/2013/12/17/3477776.html)
