@@ -1,11 +1,11 @@
-¹È¸èä¯ÀÀÆ÷ƒÈÇ¶¿ò¼Ü ¡ª¡ª Google Chrome Frame
+è°·æ­Œæµè§ˆå™¨å…§åµŒæ¡†æ¶ â€”â€” Google Chrome Frame
 -----
-> Õâ²å¼ş¿ÉÔËĞĞÓÚWindows 7¡¢Vista¡¢XP SP2»ò¸ü¸ß°æ±¾×÷ÒµÏµÍ³ÖĞµÄInternet Explorer 6¡¢7¡¢8¡¢9£¬Ê¹Internet Explorer¿ÉÒÔ»ùÓÚGoogle ChromeÖĞµÄWebkitÒıÇæ¼°V8ÒıÇæ½øĞĞÅÅ°æ¼°ÔËËã£¬¼´ÄÜ»ñµÃ±ÈÔ­ÓĞInternet Explorer¸ü¿ì¡¢¸ü°²È«ÍøÒ³ä¯ÀÀÌåÑé[4]£¬²¢ÇÒÁîInternet Explorer 6¡¢7¡¢8Ö§³ÖHTML5´úÂë¡£
+> è¿™æ’ä»¶å¯è¿è¡ŒäºWindows 7ã€Vistaã€XP SP2æˆ–æ›´é«˜ç‰ˆæœ¬ä½œä¸šç³»ç»Ÿä¸­çš„Internet Explorer 6ã€7ã€8ã€9ï¼Œä½¿Internet Explorerå¯ä»¥åŸºäºGoogle Chromeä¸­çš„Webkitå¼•æ“åŠV8å¼•æ“è¿›è¡Œæ’ç‰ˆåŠè¿ç®—ï¼Œå³èƒ½è·å¾—æ¯”åŸæœ‰Internet Exploreræ›´å¿«ã€æ›´å®‰å…¨ç½‘é¡µæµè§ˆä½“éªŒ[4]ï¼Œå¹¶ä¸”ä»¤Internet Explorer 6ã€7ã€8æ”¯æŒHTML5ä»£ç ã€‚
 
-[¹È¸èä¯ÀÀÆ÷ƒÈÇ¶¿ò¼Ü](https://zh.wikipedia.org/zh-hans/Google_Chrome_Frame)
+[è°·æ­Œæµè§ˆå™¨å…§åµŒæ¡†æ¶ Google Chrome Frame](https://zh.wikipedia.org/zh-hans/Google_Chrome_Frame)
 
-[IEÄÚÇ¶Google Chrome Frame½â¾öä¯ÀÀÆ÷¼æÈİÎÊÌâ](http://www.cnblogs.com/xwdreamer/archive/2013/12/17/3477776.html)
+[IEå†…åµŒGoogle Chrome Frameè§£å†³æµè§ˆå™¨å…¼å®¹é—®é¢˜](http://www.cnblogs.com/xwdreamer/archive/2013/12/17/3477776.html)
 
-[X-UA-CompatibleÒ²ÎŞ·¨½â¾öµÄIE11¼æÈİÎÊÌâ](http://www.cnblogs.com/dudu/p/ie11-x-ua-compatible.html)
+[X-UA-Compatibleä¹Ÿæ— æ³•è§£å†³çš„IE11å…¼å®¹é—®é¢˜](http://www.cnblogs.com/dudu/p/ie11-x-ua-compatible.html)
 
-[¸øÍøÕ¾Ìí¼ÓX-UA-Compatible±êÇ©](http://lightcss.com/add-x-ua-compatible-meta-to-your-website/)
+[ç»™ç½‘ç«™æ·»åŠ X-UA-Compatibleæ ‡ç­¾](http://lightcss.com/add-x-ua-compatible-meta-to-your-website/)
