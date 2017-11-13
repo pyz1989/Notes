@@ -14,4 +14,4 @@
 
 
 
-setTimeout 默认最小是 4ms
+- setTimeout 默认最小是 4ms
