@@ -1,5 +1,8 @@
 npm 查用指令
 -------------
+
+```
+
 npm -h                                 查看npm命令的帮助信息
 npm -v
 npm --version                          查看npm版本信息
@@ -12,5 +15,6 @@ npm install <pkg> --save               多数情况下会安装最新版本的�
 npm install <pkg> --save-dev           多数情况下会安装最新版本的包,安装包的同时自动更新package.json的devDependencies
 npm install <pkg> --save-optional      多数情况下会安装最新版本的包,安装包的同时自动更新package.json的optionalDependencies
 npm install <pkg> --save-exact         Saved dependencies will be configured with an exact version rather than using npm's default semver range operator.
+```
 
 
