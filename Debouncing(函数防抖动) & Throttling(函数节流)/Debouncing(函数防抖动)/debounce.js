@@ -1,3 +1,4 @@
+```
 // debounce函数用来包裹我们的事件
 function debounce(fn, delay) {
 	// 持久化一个定时器 timer
@@ -15,3 +16,4 @@ function debounce(fn, delay) {
 		}, delay);
 	}
 }
+```
