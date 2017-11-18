@@ -21,12 +21,12 @@ myBreak();
 
 ```
 function myContinue() {
-	for(let i = 0; i < 5; i++) {
-		if(i === 3) {
-			continue;
-		}
-		console.log(i);
-	}
+    for (let i = 0; i < 5; i++) {
+        if (i === 3) {
+            continue;
+        }
+        console.log(i);
+    }
 }
 myContinue();
 ```
@@ -41,12 +41,12 @@ myContinue();
 
 ```
 function myReturn() {
-	for(let i = 0; i < 5; i++) {
-		if(i === 3) {
-			return i;
-		}
-		console.log(i);
-	}
+    for (let i = 0; i < 5; i++) {
+        if (i === 3) {
+            return i;
+        }
+        console.log(i);
+    }
 }
 let s = myReturn();
 console.log(`s: ${s}`);
