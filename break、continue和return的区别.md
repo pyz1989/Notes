@@ -2,8 +2,8 @@
 ## break
 ```
 function myBreak() {
-	for(var i = 0; i < 5; i++) {
-		if(i == 3) {
+	for(let i = 0; i < 5; i++) {
+		if(i === 3) {
 			break;
 		}
 		console.log(i);
@@ -21,8 +21,8 @@ myBreak();
 
 ```
 function myContinue() {
-	for(var i = 0; i < 5; i++) {
-		if(i == 3) {
+	for(let i = 0; i < 5; i++) {
+		if(i === 3) {
 			continue;
 		}
 		console.log(i);
@@ -41,15 +41,15 @@ myContinue();
 
 ```
 function myReturn() {
-	for(var i = 0; i < 5; i++) {
-		if(i == 3) {
+	for(let i = 0; i < 5; i++) {
+		if(i === 3) {
 			return i;
 		}
 		console.log(i);
 	}
 }
-var s = myReturn();
-console.log("s: " + s);
+let s = myReturn();
+console.log(`s: ${s}`);
 ```
     输出：
         0
