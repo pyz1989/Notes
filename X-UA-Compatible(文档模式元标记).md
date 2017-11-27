@@ -68,13 +68,20 @@ Internet Explorer 8 及以上版本
 <meta http-equiv="X-UA-Compatible" content="IE=7; IE=9" />
 IE7和IE8以IE7的标准渲染，IE9则还是IE9的标准渲染
 
-
+```
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+```
 
-
+```
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+```
+[ChromeFrame](https://baike.baidu.com/item/Google%20Chrome%20Frame/554580)
 
+
+```
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+```
+2014年1月份Google停止更新Chrome Frame和技术支持，主要原因是其项目组认为当前的浏览器基本上都可以支持最新的Web技术，Frame项目已经失去存在的意义。但保留该代码既无害，又不会影响页面的加载速度。对那些不支持之前就安装过[ChromeFrame](https://baike.baidu.com/item/Google%20Chrome%20Frame/554580)，现在仍然使用的，依然起作用
 
 # 服务器端配置方案
 
