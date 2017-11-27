@@ -15,7 +15,7 @@
 
 > X-UA-Compatible是一种文档模式元标记，允许网页作者选择该页面应该呈现的Internet Explorer版本。Internet Explorer 8使用它来指定是否应将页面呈现为IE 7（兼容性视图）或IE 8（标准视图）。
 
-** 请注意，使用Internet Explorer 11，文档模式已被弃用 - 它们不再使用。IE11更新了对导致旧版网站问题的Web标准的支持。**
+**请注意，使用Internet Explorer 11，文档模式已被弃用 - 它们不再使用。IE11更新了对导致旧版网站问题的Web标准的支持。**
 
 为此，您可以指定要在标记内容中使用的用户代理和版本：
 ```
