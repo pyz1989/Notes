@@ -1,5 +1,7 @@
 X-UA-Compatible —— 文档模式元标记
 ----------
+# X-UA-Compatible
+
 多年来，过时的Microsoft Internet Explorer浏览器版本是网站设计师和开发人员的头痛的问题。创建CSS文件以专门兼容较旧的IE版本是许多老Web开发人员记忆犹新的。幸运的是，较新版本的IE以及微软最新的浏览器 —— Edge更符合Web标准，而且因为这些新版本的Microsoft浏览器是以“永远绿色”的方式自动更新到最新版本，所以它是我们不太可能以过去的方式与这个平台的过时版本进行斗争。
 
 对于大多数网页设计师来说，微软的浏览器进步意味着我们不再需要处理旧IE版本所提出的挑战。然而，我们中的一些人并不幸运。如果您正在管理的网站仍然包含来自较旧IE版本的大量访问者，或者如果您正在使用内部资源（如Intranet），因为某些原因使用这些旧版本的IE版本的公司，那么您将需要继续测试这些浏览器，即使这些浏览器已经过时。您可以通过使用X-UA兼容模式来实现此目的。
@@ -59,6 +61,29 @@ X-UA-Compatible元标签推荐用途：
 不可否认，您正在任何需要呈现为IE 5的网站上工作，但您永远不会知道！
 
 还有一些公司强迫员工使用非常非常旧版本的浏览器，以便继续使用以前针对这些特定浏览器开发的专有旧版软件。对于我们在网络行业的人来说，使用像这样的浏览器的想法似乎很疯狂，但是想象一家制造公司使用几十年的程序来管理他们车间的库存。是的，当然有现代化的平台来做这些，但是他们投资于其中一个平台？如果他们目前的制度没有破裂，为什么要改变呢？在许多情况下，他们不会，你会发现这家公司强迫员工使用该软件，古董浏览器肯定会运行它。不可能？也许，但肯定有可能。如果遇到这样的问题，
+
+## 服务器端配置方案
+
+### 1.0 Nginx
+```
+add_header "X-UA-Compatible" "IE=Edge,chrome=1";
+```
+
+### 2.0 Apache
+```
+<IfModulemod_setenvif.c>
+<IfModulemod_headers.c>
+BrowserMatch MSIE ie
+    Header set X-UA-Compatible "IE=Edge" env=ie
+BrowserMatchchromeframegcf
+    Header append X-UA-Compatible "chrome=1" env=gcf
+</IfModule>
+</IfModule>
+```
+
+### 3.0 IIS
+
+**IIS --> 网站 --> 目标站点 --> HTTP相应标头 --> 添加**
 
 ### 参考文献
 [X-UA-Compatible Meta Tag Description and Uses](https://www.thoughtco.com/xua-compatible-meta-tag-3469059)
