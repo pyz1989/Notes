@@ -115,5 +115,7 @@ BrowserMatchchromeframegcf
 
 [兼容利器之X-UA-Compatible](http://www.cnblogs.com/xcsn/p/5144690.html)
 
+[[FE] IE兼容性模式X-UA-Compatible](http://www.jianshu.com/p/11adc0ef158e)
+
 [“X-UA-Compatible” content=“IE=9; IE=8; IE=7; IE=EDGE”](https://stackoverflow.com/questions/14611264/x-ua-compatible-content-ie-9-ie-8-ie-7-ie-edge)
 
