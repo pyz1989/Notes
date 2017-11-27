@@ -57,19 +57,33 @@ X-UA-Compatible元标签推荐用途：
 
 在网页上使用X-UA兼容元标记，您怀疑Internet Explorer 8将尝试以不正确的视图呈现页面。例如当您有一个带有XML声明的XHTML文档时。文档顶部的XML声明将把页面引入兼容性视图，但是DOCTYPE声明应该强制它在标准视图中呈现。
 
-### 现实检查
-不可否认，您正在任何需要呈现为IE 5的网站上工作，但您永远不会知道！
+Internet Explorer 8 及以上版本
+```
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7" />
+```
 
-还有一些公司强迫员工使用非常非常旧版本的浏览器，以便继续使用以前针对这些特定浏览器开发的专有旧版软件。对于我们在网络行业的人来说，使用像这样的浏览器的想法似乎很疯狂，但是想象一家制造公司使用几十年的程序来管理他们车间的库存。是的，当然有现代化的平台来做这些，但是他们投资于其中一个平台？如果他们目前的制度没有破裂，为什么要改变呢？在许多情况下，他们不会，你会发现这家公司强迫员工使用该软件，古董浏览器肯定会运行它。不可能？也许，但肯定有可能。如果遇到这样的问题，
+强制浏览器以特定版本的标准渲染页面， 不支持IE7及以下版本
 
-## 服务器端配置方案
+以分号分隔，可对不同的版本产生兼容方案：
+<meta http-equiv="X-UA-Compatible" content="IE=7; IE=9" />
+IE7和IE8以IE7的标准渲染，IE9则还是IE9的标准渲染
 
-### 1.0 Nginx
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+
+# 服务器端配置方案
+
+## 1.0 Nginx
 ```
 add_header "X-UA-Compatible" "IE=Edge,chrome=1";
 ```
 
-### 2.0 Apache
+## 2.0 Apache
 ```
 <IfModulemod_setenvif.c>
 <IfModulemod_headers.c>
@@ -81,7 +95,7 @@ BrowserMatchchromeframegcf
 </IfModule>
 ```
 
-### 3.0 IIS
+## 3.0 IIS
 
 **IIS --> 网站 --> 目标站点 --> HTTP相应标头 --> 添加**
 
@@ -93,4 +107,6 @@ BrowserMatchchromeframegcf
 [IE内嵌google chrome frame解决浏览器兼容问题](http://www.cnblogs.com/xwdreamer/archive/2013/12/17/3477776.html)
 
 [兼容利器之X-UA-Compatible](http://www.cnblogs.com/xcsn/p/5144690.html)
+
+[“X-UA-Compatible” content=“IE=9; IE=8; IE=7; IE=EDGE”](https://stackoverflow.com/questions/14611264/x-ua-compatible-content-ie-9-ie-8-ie-7-ie-edge)
 
