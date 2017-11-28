@@ -2,7 +2,7 @@ Inno Setup
 -----------------
 
 # 如何根据系统32位或64位安装不同的软件
-**Check**
+**IsWin64：检验系统版本位数**
 ```
 Filename: "{app}\driver\dpinst-x86.exe"; Description: "安装x86驱动"; StatusMsg: "X86 Driver is setuping."; Check: "not IsWin64";
 Filename: "{app}\driver\dpinst-amd64.exe"; Description: "安装x64驱动"; StatusMsg: "X64 Driver is setuping."; Check: IsWin64;
