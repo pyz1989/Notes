@@ -1,6 +1,6 @@
-
-# JSON
-## JSON.parse
+JSON
+---------
+# 一、JSON.parse
 ## 1.概述
 > JSON.parse() 
 方法用来解析JSON字符串，构造由字符串描述的JavaScript值或对象。
@@ -72,7 +72,7 @@ JSON.parse('[1, 2, 3,]')
 // SyntaxError: JSON.parse: unexpected character at 
 // line 1 column 10 of the JSON data
 
-# JSON.stringify
+# 二、JSON.stringify
 ------------
 > JSON.stringify() 方法用于将 JavaScript 值转换为 JSON 字符串。
 
