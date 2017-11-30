@@ -1,5 +1,6 @@
 
 # JSON
+## JSON.parse
 ## 1.概述
 > JSON.parse() 
 方法用来解析JSON字符串，构造由字符串描述的JavaScript值或对象。
@@ -71,13 +72,13 @@ JSON.parse('[1, 2, 3,]')
 // SyntaxError: JSON.parse: unexpected character at 
 // line 1 column 10 of the JSON data
 
-JSON.stringify()
+# JSON.stringify
 ------------
 > JSON.stringify() 方法用于将 JavaScript 值转换为 JSON 字符串。
 
-# 语法
+## 语法
 JSON.stringify(value[, replacer[, space]])
-## 参数说明：
+### 参数说明：
 - value: **必需**，将要序列化成 一个JSON 字符串的值。
 - replacer: **可选**。 用于转换结果的函数或数组。
 	如果 replacer 为函数，则 JSON.stringify 将调用该函数，并传入每个成员的键和值。使用返回值而不是原始值。
@@ -92,7 +93,7 @@ JSON.stringify(value[, replacer[, space]])
 space 有可以使用非数字，如：\t。
 - 返回值： 返回包含 JSON 文本的字符串。
 
-# 示例
+## 示例
 ```
 JSON.stringify(value)
 ```
