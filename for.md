@@ -3,9 +3,12 @@ for
 # for循环的结构
 
 ```
-for (开始前; 循环进行的条件; 循环一次结束后做什么) {
-    // 主体代码 
+for (initialize; test; increment) {
+  statement
 }
+// 初始化表达式（initialize）：确定循环的初始值，只在循环开始时执行一次。
+// 测试表达式（test）：检查循环条件，只要为真就进行后续操作。
+// 递增表达式（increment）：完成后续操作，然后返回上一步，再一次检查循环条件。
 ```
 
 # 1. 缓存变量
@@ -24,7 +27,5 @@ for (; i > 0; i--) {
 }
 ```
 # 3. 注意跳出
-
 - ![break、continue和return的区别](https://github.com/pyz1989/Solution/blob/master/break%E3%80%81continue%E5%92%8Creturn%E7%9A%84%E5%8C%BA%E5%88%AB.md)
-
 # 4. 其他
